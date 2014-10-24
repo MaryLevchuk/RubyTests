@@ -6,7 +6,6 @@ require_relative '../../spec/spec_helper'
 module Filter
   include PageObject
 
-  #element(:st_filters, :fieldset, :css => '#app > div > section > div > article > div > aside > form.orders-filter.ng-pristine.ng-valid > fieldset:nth-child(2)')
   paragraphs(:filters, :class => 'checkbox')
 
   def get_status_filters

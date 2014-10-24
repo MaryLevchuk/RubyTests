@@ -3,12 +3,13 @@
 require 'page-object'
 require 'open-uri'
 require_relative '../../spec/spec_helper'
-
+require_relative '../../lib/modules/header'
 require_relative '../../lib/modules/orders_status_filter'
 
 class OrdersPage
 
   include PageObject
+  include Header
   include OrdersStatusFilter
 
   NEXT_DELIVERY_COLOR = 'rgba(91, 192, 222, 1)'
@@ -24,6 +25,7 @@ class OrdersPage
   span(:account_date, :css => '#app > div > nav > div.topbar__next-delivery-notice > span')
   button(:open_menu_change_account, :css => '#app > aside > div.sidebar__main-pane > button.sidebar__account-pane-toggle')
   buttons(:accounts, :xpath => '//*[@id="app"]/aside/div[2]/div[1]/div[2]/ul/li[*]')
+
 
   def get_dates
     date = []
