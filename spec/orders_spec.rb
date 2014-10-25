@@ -30,12 +30,12 @@ describe 'OrdersPage' do
      context 'contains:' do
        context 'Account info' do
          it 'Account name similar to chosen in menu same one' do
-
+#implement in menu module
          end
        end
 
        it 'next delivery date' do
-
+         expect(on(OrdersPage).next_delivery_date_is_present).to be true
        end
        it 'AddEmployee button'
        it 'search button'

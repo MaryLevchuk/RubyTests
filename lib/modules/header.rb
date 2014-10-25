@@ -14,8 +14,17 @@ module Header
   div(:search, :xpath => '//*[@id="app"]/div/nav/div[5]')
 
   def is_header_present?
-    :header?
+    header?
   end
+
+  def account_info_is_present
+    account_info?
+  end
+
+
+  def next_delivery_date_is_present
+  next_delivery_date?
+end
 
 
 end
