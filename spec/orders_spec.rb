@@ -4,7 +4,7 @@ require 'page-object'
 require_relative 'spec_helper'
 require_relative '../lib/pages/frontpage'
 require_relative '../lib/pages/orders_page'
-require_relative '../lib/modules/orders_status_filter'
+
 
 
 describe 'OrdersPage' do
@@ -25,20 +25,39 @@ describe 'OrdersPage' do
 
   context 'Header' do
      it 'is present' do
-       expect(on(OrdersPage).is_header_present?).to be true
+       expect(on(OrdersPage).present? :header).to be true
      end
      context 'contains:' do
        context 'Account info' do
-         it 'Account name similar to chosen in menu same one' do
-#implement in menu module
+         it 'present' do
+           expect(on(OrdersPage).present? :account_info).to be true
+         end
+         it 'Account name similar to chosen in menu same one' #TODO: implement in menu module
+       end
+
+       it 'Next delivery date' do
+         expect(on(OrdersPage).present? :next_delivery_date).to be true
+       end
+
+       context 'AddEmployee button' do
+         it 'present' do
+           expect(on(OrdersPage).present? :add_employee_button).to be true
+         end
+         it 'clickable' do
+           expect(on(OrdersPage).clickable? :add_employee_button).to be true
          end
        end
 
-       it 'next delivery date' do
-         expect(on(OrdersPage).next_delivery_date_is_present).to be true
+       context 'Search button' do
+         it 'present' do
+           expect(on(OrdersPage).present? :search_button).to be true
+         end
+
+         it 'on click search form is visible' do
+           expect(on(OrdersPage).check_visibility).to be true
+         end
        end
-       it 'AddEmployee button'
-       it 'search button'
+
      end
 
      context 'style' do
