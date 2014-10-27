@@ -30,7 +30,7 @@ describe 'OrdersPage' do
      context 'contains:' do
        context 'Account info' do
          it 'present' do
-           expect(on(OrdersPage).present? :account_info).to be true
+           expect(on(OrdersPage).present? :current_account).to be true
          end
          it 'Account name similar to chosen in menu same one' #TODO: implement in menu module
        end

@@ -7,7 +7,7 @@ module Header
   include PageObject
 
   element(:header, :nav, :xpath => '//*[@id="app"]/div/nav')
-  div(:account_info, :xpath => '//*[@id="app"]/div/nav/div[1]')
+  div(:current_account, :xpath => '//*[@id="app"]/div/nav/div[1]')
   div(:next_delivery_date, :xpath => '//*[@id="app"]/div/nav/div[2]')
   div(:new_employee_message, :xpath => '//*[@id="app"]/div/nav/div[3]')
   link(:add_employee_button, :xpath => '//*[@id="app"]/div/nav/div[4]/a')
