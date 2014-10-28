@@ -60,16 +60,15 @@ describe 'OrdersPage' do
 
      end
 
-     # TODO context 'style' do
-     #   it 'width'
-     #   it 'height'
-     # end
+     context 'style' do
+       it 'width'
+       it 'height'
+     end
 
   end
-  context 'Menu' do
-     it 'is collapsed'   #expanded/collapsed
-
-  end
+  # context 'Menu' do
+  #    it 'is collapsed'   #expanded/collapsed
+  # end
   # context 'Info part has' do
   #    it 'title'
   #    it 'content'

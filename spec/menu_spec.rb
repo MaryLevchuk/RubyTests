@@ -1,3 +1,0 @@
-describe 'Menu' do
-  
-end
