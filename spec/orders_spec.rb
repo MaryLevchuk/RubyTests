@@ -10,61 +10,16 @@ require_relative '../lib/pages/orders_page'
 describe 'OrdersPage' do
   before :all do
     visit  FrontPage
-  end
-  it 'Login to DDV' do
     on(FrontPage).login_to_ddv
-    sleep 30
-    on(FrontPage).change_account
-    #sleep 3
-  end
-
-  it 'open Orders' do
-    visit OrdersPage
     sleep 5
+    on(FrontPage).change_account
+    sleep 3
+    visit OrdersPage
+    sleep 3
   end
 
   context 'Header' do
-     it 'is present' do
-       expect(on(OrdersPage).present? :header).to be true
-     end
-     context 'contains:' do
-       context 'Account info' do
-         it 'present' do
-           expect(on(OrdersPage).present? :account_info).to be true
-         end
-         it 'Account name similar to chosen in menu same one' #TODO: implement in menu module
-       end
-
-       it 'Next delivery date' do
-         expect(on(OrdersPage).present? :next_delivery_date).to be true
-       end
-
-       context 'AddEmployee button' do
-         it 'present' do
-           expect(on(OrdersPage).present? :add_employee_button).to be true
-         end
-         it 'clickable' do
-           expect(on(OrdersPage).clickable? :add_employee_button).to be true
-         end
-       end
-
-       context 'Search button' do
-         it 'present' do
-           expect(on(OrdersPage).present? :search_button).to be true
-         end
-
-         it 'on click search form is visible' do
-           expect(on(OrdersPage).check_visibility).to be true
-         end
-       end
-
-     end
-
-     context 'style' do
-       it 'width'
-       it 'height'
-     end
-
+    it_behaves_like "Header"
   end
   # context 'Menu' do
   #    it 'is collapsed'   #expanded/collapsed

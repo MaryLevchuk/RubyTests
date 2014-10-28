@@ -1,9 +1,11 @@
 require 'page-object'
 require_relative '../../spec/spec_helper'
+require_relative '../../lib/modules/header'
 
 class FrontPage
 
   include PageObject
+  include Header
 
   DEFAULT_CREDENTIALS = {
       'username' => 'creuna',

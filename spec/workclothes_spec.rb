@@ -3,14 +3,17 @@
 require 'page-object'
 require_relative 'spec_helper'
 require_relative '../lib/pages/frontpage'
+require_relative '../lib/pages/workclothes'
 
 
-describe 'FrontPage' do
+describe 'WorkclothesPage' do
   before :all do
     visit  FrontPage
     on(FrontPage).login_to_ddv
     sleep 5
     on(FrontPage).change_account
+    sleep 3
+    visit WorkclothesPage
     sleep 3
   end
 
@@ -51,6 +54,7 @@ describe 'FrontPage' do
   #   context 'Departments'
   # end
   context 'Content' do
+
 
   end
 end

@@ -4,6 +4,7 @@ require 'page-object'
 require_relative '../../spec/spec_helper'
 
 module Header
+
   include PageObject
 
   element(:header, :nav, :xpath => '//*[@id="app"]/div/nav')
