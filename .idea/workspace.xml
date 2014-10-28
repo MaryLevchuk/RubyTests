@@ -16,18 +16,19 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/@OrdersPage__RubyTests.coverage" NAME="OrdersPage: RubyTests Coverage Results" MODIFIED="1414515583441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
-    <SUITE FILE_PATH="coverage/@All_tests_in_spec__RubyTests.coverage" NAME="All tests in spec: RubyTests Coverage Results" MODIFIED="1414516007917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="RubyTests" />
     <SUITE FILE_PATH="coverage/@Run_spec__orders_spec___RubyTests.coverage" NAME="Run spec 'orders_spec': RubyTests Coverage Results" MODIFIED="1414516549034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
     <SUITE FILE_PATH="coverage/@Run_spec__orders_spec___vraa_ddv.coverage" NAME="Run spec 'orders_spec': vraa_ddv Coverage Results" MODIFIED="1414068181508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vraa_ddv" />
     <SUITE FILE_PATH="coverage/@orders_page.coverage" NAME="orders_page Coverage Results" MODIFIED="1414516507933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/pages" MODULE_NAME="RubyTests" />
     <SUITE FILE_PATH="coverage/@OrdersPage_Content_Clothes_table_Dates_and_colors_appropriate__vraa_ddv.coverage" NAME="OrdersPage Content Clothes table Dates and colors appropriate: vraa_ddv Coverage Results" MODIFIED="1413819674168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vraa_ddv" />
-    <SUITE FILE_PATH="coverage/@Run_spec__workclothes_spec___RubyTests.coverage" NAME="Run spec 'workclothes_spec': RubyTests Coverage Results" MODIFIED="1414515911763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
     <SUITE FILE_PATH="coverage/vraa_ddv@spec_helper.coverage" NAME="spec_helper Coverage Results" MODIFIED="1413275386544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" />
-    <SUITE FILE_PATH="coverage/vraa_ddv@Run_spec__orders_spec___vraa_ddv.coverage" NAME="Run spec 'orders_spec': vraa_ddv Coverage Results" MODIFIED="1413561311854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vraa_ddv" />
-    <SUITE FILE_PATH="coverage/vraa_ddv@Run_spec__frontpage_spec___vraa_ddv.coverage" NAME="Run spec 'frontpage_spec': vraa_ddv Coverage Results" MODIFIED="1413281956201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/vraa_ddv@FrontPage__vraa_ddv.coverage" NAME="FrontPage: vraa_ddv Coverage Results" MODIFIED="1413215153138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/@OrdersPage_Header__RubyTests.coverage" NAME="OrdersPage Header: RubyTests Coverage Results" MODIFIED="1414312485159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
+    <SUITE FILE_PATH="coverage/vraa_ddv@FrontPage__vraa_ddv.coverage" NAME="FrontPage: vraa_ddv Coverage Results" MODIFIED="1413215153138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/@OrdersPage__RubyTests.coverage" NAME="OrdersPage: RubyTests Coverage Results" MODIFIED="1414515583441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
+    <SUITE FILE_PATH="coverage/@All_tests_in_spec__RubyTests.coverage" NAME="All tests in spec: RubyTests Coverage Results" MODIFIED="1414516007917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="RubyTests" />
+    <SUITE FILE_PATH="coverage/vraa_ddv@Run_spec__orders_spec___vraa_ddv.coverage" NAME="Run spec 'orders_spec': vraa_ddv Coverage Results" MODIFIED="1413561311854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vraa_ddv" />
+    <SUITE FILE_PATH="coverage/@Run_spec__workclothes_spec___RubyTests.coverage" NAME="Run spec 'workclothes_spec': RubyTests Coverage Results" MODIFIED="1414515911763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
+    <SUITE FILE_PATH="coverage/@Run_spec__frontpage_spec___RubyTests.coverage" NAME="Run spec 'frontpage_spec': RubyTests Coverage Results" MODIFIED="1414518313921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTests" />
+    <SUITE FILE_PATH="coverage/vraa_ddv@Run_spec__frontpage_spec___vraa_ddv.coverage" NAME="Run spec 'frontpage_spec': vraa_ddv Coverage Results" MODIFIED="1413281956201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -55,20 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontpage.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="frontpage.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/pages/frontpage.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="850">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13535032" vertical-offset="0" max-vertical-offset="901">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontpage_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="frontpage_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/frontpage_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46019107" vertical-offset="0" max-vertical-offset="628">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
@@ -134,9 +135,9 @@
         <option value="$PROJECT_DIR$/spec/orders_spec.rb" />
         <option value="$PROJECT_DIR$/spec/workclothes_spec.rb" />
         <option value="$PROJECT_DIR$/lib/pages/workclothes.rb" />
-        <option value="$PROJECT_DIR$/lib/pages/frontpage.rb" />
         <option value="$PROJECT_DIR$/lib/modules/menu.rb" />
         <option value="$PROJECT_DIR$/spec/frontpage_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/pages/frontpage.rb" />
       </list>
     </option>
   </component>
@@ -283,39 +284,7 @@
       <recent name="D:\Projects\VRAA\vraa_ddv\lib\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'orders_spec': RubyTests">
-    <configuration default="false" name="OrdersPage Header: RubyTests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="RubyTests" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/orders_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrdersPage Header" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="RSpec.Run spec 'frontpage_spec': RubyTests">
     <configuration default="false" name="OrdersPage: RubyTests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="RubyTests" />
@@ -428,6 +397,38 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Run spec 'frontpage_spec': RubyTests" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="RubyTests" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/frontpage_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -536,19 +537,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'orders_spec': RubyTests" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'orders_spec': vraa_ddv" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.OrdersPage Header: RubyTests" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.OrdersPage: RubyTests" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'workclothes_spec': RubyTests" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: RubyTests" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.orders_page" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.OrdersPage: RubyTests" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'workclothes_spec': RubyTests" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: RubyTests" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.orders_page" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Run spec 'frontpage_spec': RubyTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.orders_page" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: RubyTests" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'workclothes_spec': RubyTests" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.OrdersPage: RubyTests" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.OrdersPage Header: RubyTests" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'frontpage_spec': RubyTests" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.orders_page" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: RubyTests" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'workclothes_spec': RubyTests" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.OrdersPage: RubyTests" />
       </list>
     </recent_temporary>
   </component>
@@ -1055,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/frontpage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="850">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/menu.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -1073,8 +1066,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/frontpage_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46019107" vertical-offset="0" max-vertical-offset="628">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/frontpage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13535032" vertical-offset="0" max-vertical-offset="901">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
