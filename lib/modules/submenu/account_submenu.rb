@@ -13,7 +13,7 @@ module AccountSubMenu
   list_item(:filter, :xpath => '//*[@id="app"]/aside/div[2]/div[1]/div[2]/ul/li[1]')
   list_items(:choose_account, :xpath => '//*[@id="app"]/aside/div[2]/div[1]/div[2]/ul/li[*]')
 
-  def choose_random_account
+  def self.choose_random_account
     current_account = ''
     n = 1 + Random.rand(choose_account_elements.length -1)
     choose_account_element[n].click()
@@ -21,5 +21,11 @@ module AccountSubMenu
     current_account
   end
 
-
+  def get_accounts
+    accounts = []
+    choose_account.each do |account|
+      accounts << account
+    end
+    accounts
+  end
 end

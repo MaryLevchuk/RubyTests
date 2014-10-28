@@ -1,8 +1,9 @@
+#encoding:UTF-8
+
 require 'page-object'
 require_relative '../../spec/spec_helper'
 
-class FrontPage
-
+module Login
   include PageObject
 
   DEFAULT_CREDENTIALS = {
@@ -21,7 +22,7 @@ class FrontPage
 
   paragraph(:no_matches, :xpath => '//*[@id="app"]/div/section/div/article/div/section[2]/p')
 
-  def login_to_ddv(credentials = {})
+  def self.login_to_ddv(credentials = {})
     credentials = DEFAULT_CREDENTIALS.merge(credentials)
     self.username = credentials['username']
     self.password = credentials['password']
@@ -32,9 +33,7 @@ class FrontPage
     open_menu_change_account
     sleep 1
     choose_account
-    sleep 1
+    sleep 5
   end
-
-
 
 end

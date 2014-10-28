@@ -3,18 +3,23 @@
 require 'page-object'
 require_relative 'spec_helper'
 require_relative '../lib/pages/frontpage'
+require_relative '../lib/modules/login'
+require_relative '../lib/modules/submenu/account_submenu'
 require_relative '../lib/pages/orders_page'
+require_relative '../lib/modules/menu'
 
 
 
-describe 'OrdersPage' do
+describe 'Orders' do
   before :all do
     visit  FrontPage
+    login_to_ddv
+    sleep 30
   end
   it 'Login to DDV' do
-    on(FrontPage).login_to_ddv
-    sleep 30
-    on(FrontPage).change_account
+    # on(FrontPage).login_to_ddv
+    # sleep 30
+    on(FrontPage).choose_account
     #sleep 3
   end
 
@@ -32,7 +37,9 @@ describe 'OrdersPage' do
          it 'present' do
            expect(on(OrdersPage).present? :current_account).to be true
          end
-         it 'Account name similar to chosen in menu same one' #TODO: implement in menu module
+         it 'Account name similar to chosen in menu same one' do
+           expect(on(OrdersPage).same_accounts).to be true
+         end
        end
 
        it 'Next delivery date' do
@@ -67,7 +74,9 @@ describe 'OrdersPage' do
 
   end
   context 'Menu' do
-     it 'is collapsed'   #expanded/collapsed
+     it 'is like menu' do
+#TODO: run menu_spec.rb
+     end
 
   end
   # context 'Info part has' do
@@ -75,7 +84,7 @@ describe 'OrdersPage' do
   #    it 'content'
   # end
   # context 'Filter section includes filters by:' do
-  #   context 'All Fields'do
+  #   context 'All Fields' do
   #     it 'present' do
   #
   #     end
