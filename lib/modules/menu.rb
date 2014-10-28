@@ -19,13 +19,6 @@ module Menu
   button(:toggle_pane, :xpath => '//*[@id="app"]/aside/div[1]/button[2]')
 
 
-  def change_account
-    open_menu_change_account
-    sleep 1
-    choose_account
-    sleep 5
-  end
-
   def get_account_from_header
     account = current_account_element.attribute('innerText').delete('Konto')
     account

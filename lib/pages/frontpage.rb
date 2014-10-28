@@ -28,11 +28,11 @@ class FrontPage
     login
   end
 
-  def choose_account
+  def change_account
     open_menu_change_account
     sleep 1
     choose_account
-    sleep 1
+    sleep 5
   end
 
 

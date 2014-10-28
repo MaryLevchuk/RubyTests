@@ -78,6 +78,23 @@ class OrdersPage
     (common_result == 1) ? true : false
   end
 
+  # def change_account
+  #   n = accounts_elements.length
+  #   sleep 1
+  #   open_menu_change_account
+  #   sleep 1
+  #   accounts_elements[1 + Random.rand(n-1)].click()
+  #   sleep 5
+  # end
 
+  # def open_orders_page
+  #   open('http://vraa.dev01.creuna.net/ddv/workclothes/orders')
+  # end
+  #
+  # def content_present?
+  #   if no_matches?
+  #     then change_account
+  #   end
+  # end
 
 end
