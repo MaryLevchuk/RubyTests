@@ -37,6 +37,9 @@ class FrontPage
     sleep 5
   end
 
+  def get_current_account
+
+  end
 
 
 end
