@@ -55,8 +55,8 @@
       <file leaf-file-name="orders_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/orders_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
-              <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1479">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#430#1573#0" expanded="false" />
                 <element signature="e#1591#1645#0" expanded="false" />
@@ -89,17 +89,9 @@
       <file leaf-file-name="menu_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/menu_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67481405" vertical-offset="164" max-vertical-offset="1207">
-              <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
-              <folding>
-                <element signature="e#105#245#0" expanded="false" />
-                <element signature="e#281#423#0" expanded="false" />
-                <element signature="e#470#667#0" expanded="false" />
-                <element signature="e#705#787#0" expanded="false" />
-                <element signature="e#827#913#0" expanded="false" />
-                <element signature="e#956#2490#0" expanded="false" />
-                <element signature="e#1006#1152#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.018065887" vertical-offset="0" max-vertical-offset="941">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +130,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1922" />
-    <option name="y" value="1" />
+    <option name="x" value="1920" />
     <option name="width" value="1936" />
     <option name="height" value="1080" />
   </component>
@@ -273,7 +264,6 @@
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -601,7 +591,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1922" y="1" width="1936" height="1080" extended-state="0" />
+    <frame x="1920" y="0" width="1936" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1091,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/menu.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/orders_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
@@ -1109,8 +1091,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/orders_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1479">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="e#430#1573#0" expanded="false" />
             <element signature="e#1591#1645#0" expanded="false" />
@@ -1119,19 +1101,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/menu.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/menu_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67481405" vertical-offset="164" max-vertical-offset="1207">
-          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
-          <folding>
-            <element signature="e#105#245#0" expanded="false" />
-            <element signature="e#281#423#0" expanded="false" />
-            <element signature="e#470#667#0" expanded="false" />
-            <element signature="e#705#787#0" expanded="false" />
-            <element signature="e#827#913#0" expanded="false" />
-            <element signature="e#956#2490#0" expanded="false" />
-            <element signature="e#1006#1152#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.018065887" vertical-offset="0" max-vertical-offset="941">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
