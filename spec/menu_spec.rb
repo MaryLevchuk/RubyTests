@@ -74,7 +74,6 @@ describe 'Menu' do
         it_should_behave_like "Expanded button"
         it 'contains current account name'
         it 'has blue background color'
-        it 'account is the same as on the header'
       end
 
       context 'Workclothes' do
