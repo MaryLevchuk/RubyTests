@@ -23,7 +23,7 @@ class OrdersPage
   spans(:colors, :xpath => '//*/table/tbody/tr[*]/td[6]/dl/dd/span[1]')
 
   span(:account_date, :css => '#app > div > nav > div.topbar__next-delivery-notice > span')
-  button(:open_menu_change_account, :css => '#app > aside > div.sidebar__main-pane > button.sidebar__account-pane-toggle')
+  button(:menu_change_account, :css => '#app > aside > div.sidebar__main-pane > button.sidebar__account-pane-toggle')
   buttons(:accounts, :xpath => '//*[@id="app"]/aside/div[2]/div[1]/div[2]/ul/li[*]')
 
 

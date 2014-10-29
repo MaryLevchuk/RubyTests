@@ -15,13 +15,13 @@ class FrontPage
       'password' => 'n56dgfk9'
   }
 
-  page_url 'http://vraa.dev01.creuna.net/ddv/'
+  page_url 'http://feature.vraa.dev01.creuna.net/ddv/'
 
   text_field(:username, :id => 'Username')
   text_field(:password, :id => 'Password')
   button(:login, :value => 'Login')
 
-  button(:open_menu_change_account, :css => '#app > aside > div.sidebar__main-pane > button.sidebar__account-pane-toggle')
+  button(:menu_change_account, :css => '#app > aside > div.sidebar__main-pane > button.sidebar__account-pane-toggle')
   button(:choose_account, :css => '#app > aside > div.sidebar__pane > div.pane__account > div.pane__change-account > ul > li:nth-child(2) > button')
 
   paragraph(:no_matches, :xpath => '//*[@id="app"]/div/section/div/article/div/section[2]/p')
@@ -33,16 +33,9 @@ class FrontPage
     login
   end
 
-  def change_account
-    open_menu_change_account
-    sleep 1
-    choose_account
-    sleep 5
-  end
 
-  def get_current_account
 
-  end
+
 
 
 end
