@@ -1,11 +1,13 @@
 #encoding:UTF-8
 
 require 'page-object'
+require_relative '../../lib/modules/common'
 require_relative '../../spec/spec_helper'
 
 module Header
 
   include PageObject
+  include Common
 
   element(:header, :nav, :xpath => '//*[@id="app"]/div/nav')
   div(:account_info, :xpath => '//*[@id="app"]/div/nav/div[1]')
@@ -15,23 +17,23 @@ module Header
   button(:search_button, :xpath => '//*[@id="app"]/div/nav/div[5]/button')
   form(:search_form, :xpath => '//*[@id="app"]/div/nav/div[5]/form')
 
-  def present?(header_component)
-    method = "#{header_component}?"
-    result = send(*method)
-    result
-  end
-
-    def clickable?(item)
-    item_to_check = "#{item}_element"
-    result = send(*item_to_check)
-    result.attribute('href') != ''
-  end
-
-  def visible?(item)
-    item_to_check = "#{item}_element"
-    result = send(*item_to_check)
-    result.visible?
-  end
+  # def present?(header_component)
+  #   method = "#{header_component}?"
+  #   result = send(*method)
+  #   result
+  # end
+  #
+  #   def clickable?(item)
+  #   item_to_check = "#{item}_element"
+  #   result = send(*item_to_check)
+  #   result.attribute('href') != ''
+  # end
+  #
+  # def visible?(item)
+  #   item_to_check = "#{item}_element"
+  #   result = send(*item_to_check)
+  #   result.visible?
+  # end
 
   def check_visibility
     search_button

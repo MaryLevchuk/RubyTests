@@ -22,7 +22,7 @@ describe 'FrontPage' do
 
   context 'Menu' do
     it 'filter focused' do
-      on(FrontPage).date
+      on(FrontPage).filter_focused
     end
 
   end

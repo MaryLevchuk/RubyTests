@@ -13,6 +13,7 @@ module Menu
   buttons(:accounts, :xpath => '//*[@id="app"]/aside/div[2]/div[1]/div[2]/ul/li[*]/button')
   text_area(:filter_account, :xpath => '//*[@id="app"]/aside/div[2]/div[1]/div[2]/ul/li[1]/input')
 
+
   def change_account(account_number)
     account_btn
     sleep 1
@@ -33,13 +34,6 @@ module Menu
     account_btn
     execute_script("$('#app > aside > div.sidebar__pane > div.pane__account > div.pane__change-account > ul > li:nth-child(1) > input').is('focused')")
   end
-
-def date
-  a = Date.parse('20/08/2014')
-  b = Date.parse('29/10/2014')
-  puts b-a
-  sleep 1
-end
 
   def collapsed_menu
 

@@ -2,6 +2,7 @@
 
 require 'rspec'
 require 'selenium-webdriver'
+require_relative '../lib/modules/common'
 require_relative '../lib/modules/header'
 
 RSpec.configure do |config|
