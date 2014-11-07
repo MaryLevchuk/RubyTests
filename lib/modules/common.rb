@@ -25,4 +25,7 @@ module Common
     result.visible?
   end
 
+  def contains(*args)
+
+  end
 end
