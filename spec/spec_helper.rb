@@ -4,6 +4,7 @@ require 'rspec'
 require 'selenium-webdriver'
 require_relative '../lib/modules/common'
 require_relative '../lib/modules/header'
+require_relative '../lib/modules/menu'
 
 RSpec.configure do |config|
   config.include PageObject::PageFactory
@@ -66,4 +67,16 @@ RSpec.shared_examples 'Header' do
     it 'height'
   end
 
+end
+
+#menu
+RSpec.shared_examples 'Menu' do
+  it 'is present' do
+    expect(@current_page.present? :account_btn).to be true
+  end
+  context 'filter in sub-menu' do
+      it 'is focused' do
+        expect(@current_page.filter_focused).to be true
+      end
+    end
 end

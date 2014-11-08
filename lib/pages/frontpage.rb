@@ -15,7 +15,7 @@ class FrontPage
       'password' => 'n56dgfk9'
   }
 
-  page_url 'http://feature.vraa.dev01.creuna.net/ddv/'
+  page_url 'http://vraa.dev01.creuna.net/ddv/'
 
   text_field(:username, :id => 'Username')
   text_field(:password, :id => 'Password')

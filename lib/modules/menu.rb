@@ -32,7 +32,8 @@ module Menu
 
   def filter_focused
     account_btn
-    execute_script("$('#app > aside > div.sidebar__pane > div.pane__account > div.pane__change-account > ul > li:nth-child(1) > input').is('focused')")
+    result = execute_script("$('#app > aside > div.sidebar__pane > div.pane__account > div.pane__change-account > ul > li:nth-child(1) > input').is('focused')")
+    result
   end
 
   def collapsed_menu

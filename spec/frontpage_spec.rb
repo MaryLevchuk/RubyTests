@@ -21,9 +21,7 @@ describe 'FrontPage' do
   # end
 
   context 'Menu' do
-    it 'filter focused' do
-      on(FrontPage).filter_focused
-    end
+    it_behaves_like 'Menu'
 
   end
 
