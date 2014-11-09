@@ -76,7 +76,7 @@ RSpec.shared_examples 'Menu' do
   end
   context 'filter in sub-menu' do
       it 'is focused' do
-        expect(@current_page.filter_focused).to be true
+        expect(@current_page.filter_focused?).to be true
       end
     end
 end

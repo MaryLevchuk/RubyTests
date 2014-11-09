@@ -16,6 +16,7 @@ class FrontPage
   }
 
   page_url 'http://vraa.dev01.creuna.net/ddv/'
+  # page_url 'http://api.jquery.com/category/version/1.9/'
 
   text_field(:username, :id => 'Username')
   text_field(:password, :id => 'Password')
