@@ -26,6 +26,40 @@ class FrontPage
 
   paragraph(:no_matches, :xpath => '//*[@id="app"]/div/section/div/article/div/section[2]/p')
 
+  RSpec.shared_examples 'NewsLine' do
+    it 'is present' do
+      expect(@current_page.present? :news).to be true
+    end
+    context 'contains:' do
+      it 'news default icon' do
+        expect(@current_page.present? :news_default_icon).to be true
+      end
+      it 'news publication date' do
+        expect(@current_page.present? :news_publication_date).to be true
+      end
+      context 'news title' do
+        it 'present' do
+          expect(@current_page.present? :news_title).to be true
+        end
+        it 'clickable' do
+          expect(@current_page.clickable? :news_title).to be true
+        end
+      end
+
+      it 'news description' do
+        expect(@current_page.present? :news_description).to be true
+      end
+      it 'arrow-right' do
+        expect(@current_page.present? :arrow_right).to be true
+      end
+      it 'go-to-news-overview link' do
+        # expect(@current_page.(if there is more than 3 news show link )).to be true
+      end
+
+
+    end
+    end
+
   def login_to_ddv(credentials = {})
     credentials = DEFAULT_CREDENTIALS.merge(credentials)
     self.username = credentials['username']

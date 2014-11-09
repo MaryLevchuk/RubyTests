@@ -12,7 +12,7 @@ describe 'OrdersPage' do
     visit  FrontPage
     on(FrontPage).login_to_ddv
     sleep 5
-    on(FrontPage).change_account
+    on(FrontPage).change_account 0
     sleep 3
     visit OrdersPage
     sleep 3

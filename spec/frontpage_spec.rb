@@ -26,10 +26,15 @@ describe 'FrontPage' do
   end
 
   context 'Header' do
-    it_behaves_like "Header"
+    it_behaves_like 'Header'
   end
 
   context 'Content' do
+    context 'News' do
+      # it_behaves_like 'News'
+    end
+    context 'EmployeesTable' do
 
+    end
   end
 end
