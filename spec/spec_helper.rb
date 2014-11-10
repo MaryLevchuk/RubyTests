@@ -21,8 +21,6 @@ RSpec.configure do |config|
   end
 end
 
-
-
 #header
 
 RSpec.shared_examples 'Header' do

@@ -1,14 +1,13 @@
 #encoding:UTF-8
 
 require 'page-object'
-require_relative '../../spec/spec_helper'
 
 module Common
 
   include PageObject
 
-  def present?(header_component)
-    method = "#{header_component}?"
+  def present?(component)
+    method = "#{component}?"
     result = send(*method)
     result
   end

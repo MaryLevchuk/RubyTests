@@ -1,7 +1,5 @@
 require 'page-object'
 require_relative '../../spec/spec_helper'
-require_relative '../../lib/modules/header'
-require_relative '../../lib/modules/menu'
 
 class FrontPage
 

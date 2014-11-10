@@ -18,11 +18,11 @@ describe 'WorkclothesPage' do
   end
 
   context 'Header' do
-    it_behaves_like "Header"
+    it_behaves_like 'Header'
   end
-  # context 'Menu' do
-  #    it 'is collapsed'   #expanded/collapsed
-  # end
+  context 'Menu' do
+    it_behaves_like 'Menu'
+  end
   # context 'Info part has' do
   #    it 'title'
   #    it 'content'

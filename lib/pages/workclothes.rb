@@ -1,15 +1,15 @@
 #encoding:UTF-8
 
 require 'page-object'
-require 'open-uri'
 require_relative '../../spec/spec_helper'
-require_relative '../../lib/modules/header'
+
 require_relative '../../lib/modules/orders_status_filter'
 
 class WorkclothesPage
 
   include PageObject
   include Header
+  include Menu
   include OrdersStatusFilter
 
   NEXT_DELIVERY_COLOR = 'rgba(91, 192, 222, 1)'

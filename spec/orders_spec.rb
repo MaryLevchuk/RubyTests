@@ -5,25 +5,23 @@ require_relative 'spec_helper'
 require_relative '../lib/pages/frontpage'
 require_relative '../lib/pages/orders_page'
 
-
-
 describe 'OrdersPage' do
   before :all do
     visit  FrontPage
     on(FrontPage).login_to_ddv
     sleep 5
     on(FrontPage).change_account 0
-    sleep 3
+    sleep 1
     visit OrdersPage
-    sleep 3
+    sleep 5
   end
 
-  context 'Header' do
-    it_behaves_like "Header"
-  end
-  # context 'Menu' do
-  #    it 'is collapsed'   #expanded/collapsed
+  # context 'Header' do
+  #   it_behaves_like 'Header'
   # end
+  context 'Menu' do
+    it_behaves_like 'Menu'
+  end
   # context 'Info part has' do
   #    it 'title'
   #    it 'content'
@@ -61,7 +59,7 @@ describe 'OrdersPage' do
         it 'Set of clothes'
       end
       context 'Dates and colors' do
-        it 'appropriate' do
+        it 'are appropriate' do
          expect(on(OrdersPage).colors_appropriate).to be true
         end
       end
