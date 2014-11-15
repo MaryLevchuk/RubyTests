@@ -31,8 +31,10 @@ module Menu
   def filter_focused?
     account_btn
     sleep 3
-    result = execute_script("return $('#app aside div.pane__change-account ul li input').css('border-color')")
-    (result == 'rgb(102, 175, 233)')
+
+    result = execute_script("return $('input.ng-valid:nth-child(1)').is(':focus')")
+    #(result == 'rgb(102, 175, 233)')
+    result
   end
 
   def collapsed_menu
